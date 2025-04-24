@@ -6,8 +6,7 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-config CONFIG_ZMK_BLE_PASSKEY_ENTRY
-    default y
+config CONFIG_ZMK_BLE_PASSKEY_ENTRY = y
 
 endif
 
